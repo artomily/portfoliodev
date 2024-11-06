@@ -5,16 +5,15 @@ import { HiMenuAlt1 } from "react-icons/hi";
 import { CiLight } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
-
-  const [toggle, setToggle] = useState(false)
+const nav = () => {
+  const [toggle, setToggle] = useState(false);
 
   function openMenu() {
-    setToggle(true)
+    setToggle(true);
   }
 
   function closeMenu() {
-    setToggle(false)
+    setToggle(false);
   }
 
   return (
@@ -103,4 +102,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default nav;
