@@ -19,7 +19,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between p-10 lg:flex-row bg-white">
+      <nav className="fixed flex items-center justify-between top-0 left-0 w-full shadow-sm z-50 p-10 lg:flex-row bg-white">
         <div>
           <Link
             to="/"
@@ -75,7 +75,7 @@ const Nav = () => {
             )}
           </div>
         </div>
-      </div>
+      </nav>
 
       <div className="ssm:block lg:hidden">
         {toggle ? (

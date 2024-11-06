@@ -3,8 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      Short About Me
-      <div className='whitespace-pre-line mx-20'>
+      <div className='whitespace-pre-line mx-20 mt-40'>
         Hi! I’m Rakyavara Artomily, a Frontend Developer passionate about
         creating fast, modern, and user-friendly web experiences. I work with
         technologies like JavaScript, TypeScript, React, Next.js, Vue, and

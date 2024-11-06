@@ -1,6 +1,7 @@
 import React from "react";
 
-const Card = ({ title, description, imgSrc }) => {
+const Card = ({ title, description, imgSrc, techStack = [] }) => {
+  
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800">
       <img className="w-full h-48 object-cover" src={imgSrc} alt="Card image" />
@@ -13,9 +14,19 @@ const Card = ({ title, description, imgSrc }) => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Learn More
+        <button className="w-full bg-slate-700 hover:bg-slate-500    text-white font-bold py-2 px-4 rounded">
+          Demo 
         </button>
+      </div>
+
+      {/* Tech Stack Icons */}
+      <div className="flex space-x-2 mt-4 pl-6 pb-6">
+        {techStack.map((Icon, index) => (
+          <Icon
+            key={index}
+            className="w-6 h-6"
+          />
+        ))}
       </div>
     </div>
   );

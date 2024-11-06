@@ -3,22 +3,30 @@ import Card from "../components/Card";
 
 const Certificate = () => {
   return (
-      <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="p-8 pt-40">
+      <h1 className="text-4xl font-bold mb-4 flex items-center justify-center">
+        Certificates
+      </h1>
+      <div className="bg-gray-50 px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <Card
-            title="Card 1"
-            description="This is a description for Card 1."
-            imgSrc="https://via.placeholder.com/400x300"
+            title="Full-Stack Web Development"
+            description="Certification in full-stack web development"
+            date="January 2023"
           />
           <Card
-            title="Card 2"
-            description="This is a description for Card 2."
-            imgSrc="https://via.placeholder.com/400x300"
+            title="React.js Advanced"
+            description="Advanced level certification in React.js"
+            date="March 2023"
           />
           <Card
-            title="Card 3"
-            description="This is a description for Card 3."
-            imgSrc="https://via.placeholder.com/400x300"
+            title="React.js Advanced"
+            description="Advanced level certification in React.js"
+            date="March 2023"
+          />
+          <Card
+            title="React.js Advanced"
+            description="Advanced level certification in React.js"
+            date="March 2023"
           />
         </div>
       </div>
