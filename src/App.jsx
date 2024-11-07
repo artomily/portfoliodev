@@ -10,7 +10,7 @@ export default function App() {
   return (
       <div className="min-h-screen bg-white">
     <Router>
-      <Navigation />
+      <Nav />
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Project />} />
