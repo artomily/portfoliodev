@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Card from "../components/Card";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import realEstate from "../assets/real-estate.jpg";
 import { PiCircleNotch } from "react-icons/pi";
 import comingSoon from "../assets/coming-soon.jpg"
+import { FaFigma } from "react-icons/fa";
 
 const Project = () => {
   const [activeTab, setActiveTab] = useState("development");
@@ -21,22 +22,16 @@ const Project = () => {
               techStack={[RiNextjsFill, RiTailwindCssFill]}
             />
             <Card
-              title="Real Estate Website"
-              description="Landing page of real estate website marketing using next.js & tailwind.css"
-              imgSrc={realEstate}
-              techStack={[RiNextjsFill, RiTailwindCssFill]}
+              title="KopiKita"
+              description="Casier Website App"
+              imgSrc={""}
+              techStack={[RiReactjsFill, RiTailwindCssFill]}
             />
             <Card
-              title="Real Estate Website"
-              description="Landing page of real estate website marketing using next.js & tailwind.css"
-              imgSrc={realEstate}
-              techStack={[RiNextjsFill, RiTailwindCssFill]}
-            />
-            <Card
-              title="Real Estate Website"
-              description="Landing page of real estate website marketing using next.js & tailwind.css"
-              imgSrc={realEstate}
-              techStack={[RiNextjsFill, RiTailwindCssFill]}
+              title="O'Watch"
+              description="Watch to Earn Web3 Website"
+              imgSrc={""}
+              techStack={[FaFigma]}
             />
           </div>
         );
@@ -44,10 +39,10 @@ const Project = () => {
         return (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4">
             <Card
-              title="Coming Soon"
-              description="the project is currently development"
-              imgSrc={comingSoon}
-              techStack={[PiCircleNotch]}
+              title="Enfin - Manage Financial Website"
+              description="Hackathon Sevima 2024"
+              imgSrc={""}
+              techStack={[FaFigma]}
             />
           </div>
         );
