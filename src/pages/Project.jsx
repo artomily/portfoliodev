@@ -14,7 +14,7 @@ const Project = () => {
     switch (activeTab) {
       case "development":
         return (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
             <Card
               title="Real Estate Website"
               description="Landing page of real estate website marketing using next.js & tailwind.css"
@@ -48,7 +48,7 @@ const Project = () => {
         );
       case "nocode":
         return (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 ">
           <Card
             title="Coming Soon"
             description="the project is currently development"
@@ -64,13 +64,13 @@ const Project = () => {
   };
 
   return (
-    <div className="p-8 pt-40 ">
+    <div className="p-8 pt-40 w-[1000px] mx-auto">
       <h1 className="text-4xl font-bold mb-4 flex items-center justify-center">
         Projects
       </h1>
 
       {/* navigation tab */}
-      <div className="flex space-x-4 border-b">
+      <div className="flex space-x-4">
         <button
           onClick={() => setActiveTab("development")}
           className={`py-2 px-4 ${

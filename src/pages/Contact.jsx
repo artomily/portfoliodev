@@ -2,10 +2,10 @@ import React from 'react'
 // import { FaArrowDown } from 'react-icons/fa';
 import { MdArrowOutward } from 'react-icons/md';
 
-const About = () => {
+const Contact = () => {
    const handleShowResume = () => {
      const resumeUrl =
-       "https://drive.google.com/file/d/1qnbu-jR6uZe2irsIsi2a-_gazLhYx_89/view?usp=sharing";
+       "https://drive.google.com/file/d/1ORuGsR0wBrirwKsx01XXGA6YfLm3Tpvd/view?usp=sharing";
      window.open(resumeUrl, "_blank"); 
    };
   return (
@@ -32,4 +32,4 @@ const About = () => {
   );
 }
 
-export default About
+export default Contact

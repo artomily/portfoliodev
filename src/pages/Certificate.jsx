@@ -7,7 +7,7 @@ const Certificate = () => {
       <h1 className="text-4xl font-bold mb-4 flex items-center justify-center">
         Certificates
       </h1>
-      <div className="bg-gray-50 px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className=" px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <Card
           title="Membangun Karir Data Scientist dengan Pemrograman R"
           description="Course-Net X Prakerja"

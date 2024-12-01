@@ -14,10 +14,10 @@ const Card = ({ title, description, imgSrc, date, techStack = [] }) => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
+        <div className="text-gray-500 text-sm">{date}</div>
         <button className=" flex items-center justify-center w-full bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded">
           Show More <MdArrowOutward size={20} className="ml-2" />
         </button>
-        <div className="text-gray-500 text-sm">{date}</div>
       </div>
 
       {/* Tech Stack Icons */}
